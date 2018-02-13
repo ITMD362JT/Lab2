@@ -429,5 +429,23 @@ body {
   text-align: center;
 }
 
-
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+  }
+  body {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  label {
+    display: inline-flex;
+    font-weight: bold;
+    width: auto;
+  }
+}
 
