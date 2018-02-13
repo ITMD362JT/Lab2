@@ -443,8 +443,12 @@ body {
     padding-right: 10%;
   }
   label {
-    display: inline-flex;
     font-weight: bold;
+    display: inline-flex;
+    width: auto;
+  }
+  input {
+    display: inline-flex;
     width: auto;
   }
 }
