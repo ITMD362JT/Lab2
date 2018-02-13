@@ -397,18 +397,31 @@ template {
 h1 {
   font-style: italic;
   font-weight: bold;
+  margin-bottom: 40px;
 }
 
 #email {
   font-weight: bold;
 }
 
+#emailA {
+  margin-bottom: 20px;
+}
+
 #pnumber {
   font-weight: bold;
 }
 
+#phoneN {
+  margin-bottom: 20px;
+}
+
 #dob {
   font-weight: bold;
+}
+
+#dateofbirth {
+  margin-bottom: 20px;
 }
 
 body {
