@@ -9,9 +9,21 @@
 <body>
   <h1>Lab 2: Form Semantics and Normalized Styles</h1>
   <form method="GET" action="#null">
-    <p>Email Address</p>
-    <p>Phone Number</p>
-    <p>Date of Birth</p>
+    <p>
+      <label for="email">Email Address</label>
+      <input type="email" name="email" placeholder="email@domain" id="email">
+    </p>
+    <p>
+      <label for="pnumber">Phone Number</label>
+      <input type="text" name="pnumber" placeholder="(###)###-####" id="pnumber">
+    </p>
+    <p>
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" placeholder="XX-XX-XXXX" id="dob">
+    </p>
+    <div>
+      <input type="submit" value="Submit">
+    </div>  
   </form>
 </body>
 </html>
