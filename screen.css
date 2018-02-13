@@ -411,7 +411,10 @@ h1 {
   font-weight: bold;
 }
 
-
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
 
 
 
